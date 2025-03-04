@@ -1,5 +1,11 @@
-public class MainFrame {
+import java.util.*;
+import static java.lang.System.*;
+import Panels.*;
+public class MainFrame extends JFrame{
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        MainFrame mf = new MainFrame();
+    }
+    public MainFrame(String name){
+        super(name);
     }
 }
